@@ -67,13 +67,19 @@ body {
     z-index: 1000;
 }
 
-.navbar .logout-btn {
-    background-color: #f44336;
-    color: white;
-    border: none;
-    padding: 0.5rem 1rem;
-    border-radius: 4px;
-    cursor: pointer;
+.navbar .logout-btn:hover {
+    background-color: #d32f2f;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.user-name {
+    font-weight: 500;
+    font-size: 0.95rem;
 }
 
 .main-layout {
@@ -127,7 +133,15 @@ body {
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     padding: 1.5rem;
-    width: 300px;
+    width: 28%;
+    border: 1px solid #eee;
+}
+.fullCard{
+    width: 93.5%;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 1.5rem;
     border: 1px solid #eee;
 }
 
